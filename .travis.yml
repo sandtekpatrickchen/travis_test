@@ -4,7 +4,7 @@ dotnet: 2.0.0
 dist: trusty
 
 before_script:
- -cd TravisLibrary/TravisLibrary
+ cd TravisLibrary/TravisLibrary
 script:
  
- -dotnet build
+ dotnet build
