@@ -2,6 +2,9 @@ language: csharp
 mono: none
 dotnet: 2.0.0
 dist: trusty
+
+before_script:
+ -cd TravisLibrary/TravisLibrary
 script:
- -cd TravisLibrary\TravisLibrary
+ 
  -dotnet build
