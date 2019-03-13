@@ -5,6 +5,5 @@ dist: trusty
 
 before_script:
  cd TravisLibrary/TravisLibrary
-script:
- 
- dotnet build
+script: 
+ - dotnet build
